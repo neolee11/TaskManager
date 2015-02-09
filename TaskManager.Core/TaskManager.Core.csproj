@@ -40,6 +40,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Step.cs" />
+    <Compile Include="StepStatus.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="TaskStatus.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
